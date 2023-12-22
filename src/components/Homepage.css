@@ -1,0 +1,117 @@
+.homepage{
+    height: 100vh;
+    width: 100vw;
+    background: #17181f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.head-text{
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.homepage input{
+    color : white
+}
+.input-header{
+    display: flex;
+    flex-direction: row;
+
+}
+.add-edit-input {
+    width: 300px;
+    margin-bottom : 50px;
+    height: 30px;
+    font-size: 15px;
+    margin-right: 20px;
+    padding: 5px;
+    background: none;
+    border: 2px solid #30313D;
+    border-radius: 5px;
+}
+.add-task-button {
+    height: 40px;
+    font-size: 8px;
+    width: 80px;
+    font-size: 15px;
+    margin-left: 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+.confirm-task-button{
+    height: 40px;
+    font-size: 8px;
+    width: 80px;
+    font-size: 15px;
+    margin-left: 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+/* .add-edit-input{
+    position: absolute;
+    top : 20px;
+    background: none;
+    border: 2px solid #30313D;
+    border-radius: 5px;
+    padding: 8px;
+    height: 20px;
+    width: 300px;
+    font-size: 20px;
+} */
+/* .add-task-button {
+    position : absolute;
+    top: 30px;
+    right : 500px;
+    transform: scale(2);
+    cursor : pointer;
+    height: 20px;
+    font-size: 8px;
+    width: 30px;
+    border:none;
+    border-radius: 4px;
+
+} */
+.sign-out-button{
+    margin-top: 50px;
+    height: 50px;
+    width: 100px;
+    background: none;
+    border : 2px solid #30313D;
+    border-radius: 5px;
+    color : #fff;
+}
+.tasks-added{
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+}
+.task{
+    
+    color: #ffffff;
+    margin-right: 30px;
+    font-size: 25px;
+    width : 300px;
+}
+.update-button{
+    border : none;
+    border-radius: 4px;
+    height : 30px;
+    width : 60px;
+    margin-right: 5px;
+    background-color: #30313D;
+    color: #ffffff;
+}
+.delete-button {
+    border : none;
+    border-radius: 4px;
+    height : 30px;
+    width : 60px;
+    margin-left : 5px;
+    background-color: #30313D;
+    color: #ffffff;
+}

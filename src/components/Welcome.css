@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&family=Poppins:wght@100;300;400;500;700&display=swap');
+.welcome {
+    height: 100vh;
+    width: 100vw;
+    background: #17181f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+*{
+    font-family:'poppins';
+}
+.heading{
+    color : #ffffff;
+    display : flex;
+    justify-content: center;
+    width : 300px;
+    margin-bottom: 10px;
+    /* justify-content: center; */
+}
+.login-register-container{
+    /* position : absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border : 1px solid #30313D;
+    border-radius : 10px;
+    height: 300px;
+    width : 300px;
+}
+
+.login-register-container > input {
+    height: 30px;
+    width: 73%;
+    border : 1px solid #30313D;
+    border-radius : 5px;
+    padding: 5px;
+    margin-top : 5px;
+    font-size: 17px;
+}
+.login-register-container > button{
+    width: 73%;
+    height : 30px;
+    padding: 5px 20px;
+    margin: 5px;
+    cursor:pointer;
+}
+.create-account-button {
+    border : none;
+    background: none;
+    color:#fff;
+    cursor : pointer;
+}
+.sign-in-button {
+    background: none;
+    border : 2px solid #30313D;
+    border-radius: 5px;
+    color : #fff;
+}
+.register-button{
+    background: none;
+    border : 2px solid #30313D;
+    border-radius: 5px;
+    color : #fff;
+}
+.go-back-button{
+    border : none;
+    background: none;
+    color:#fff;
+    cursor : pointer;
+}
